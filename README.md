@@ -30,7 +30,7 @@ To clone or download this application firmware on GitHub,
 - MCHV-230VAC-1.5kW Development Board  [(EV78U65A)](https://www.microchip.com/en-us/development-tool/ev78u65a) 
 - dsPIC33CK64MC105 Motor Control Dual In-line Module [(EV03J37A)](https://www.microchip.com/en-us/development-tool/ev03j37a)
 - Leadshine (EL5-M0400-1-24) 400W 220VAC Servo Motor[(AC300025)](https://www.microchip.com/en-us/development-tool/AC300025)
-- AC Source for powering the Development Board: 130-240V<sub>ac rms</sub> , 50Hz
+- AC Source for powering the Development Board: 150-230V<sub>ac rms</sub> , 50Hz
 
 > **Note:** </br>
 >  Items [EV78U65A](https://www.microchip.com/en-us/development-tool/ev78u65a), [EV03J37A](https://www.microchip.com/en-us/development-tool/ev03j37a) and [AC300025](https://www.microchip.com/en-us/development-tool/AC300025) are available to purchase directly from [microchip DIRECT](https://www.microchipdirect.com/) 
@@ -45,7 +45,7 @@ Refer ["Motor Control High Voltage 230VAC-1.5kW Development Board User's Guide"]
 1. Motor currents are amplified by the amplifiers internal to the dsPIC33CK64MC105 on the DIM. The firmware and DIM are configured to sample and convert internal amplifier outputs (**'internal op-amp configuration'**) by default to measure the motor currents needed to implement FOC. **Table-1** summarizes the jumper resistors(0R) on the DIM for **‘internal op-amp configuration’**.
 
      <p align="left" >
-     <img  src="images/Table_internalopamp.png"width="800"/></p>
+     <img  src="images/Table_internalopamp.jpg"width="800"/></p>
 
 2. Ensure the development board is not powered and it is fully discharged. Verify the LEDs **LD1**(Green) and **LD4**(Red) on Power Factor Correction Board and **LD1**(Green) on Motor Control Inverter Board are not glowing. 
 
@@ -66,7 +66,7 @@ Refer ["Motor Control High Voltage 230VAC-1.5kW Development Board User's Guide"]
      <p align="left" >
       <img  src="images/motorconnection.png" width="600"/></p>
 
-6. Power the PFC board using a controlled AC source by applying a voltage within in the range 130-240V<sub>ac rms</sub> and a frequency of 50Hz through IEC connector **connector J1** provided on the PFC board. If the supply frequency is 60Hz, refer to point No: 3 in the section [Basic Demonstration](#52-basic-demonstration) to change the input frequency in firmware parameters . 
+6. Power the PFC board using a controlled AC source by applying a voltage within in the range 150-230V<sub>ac rms</sub> and a frequency of 50Hz through IEC connector **connector J1** provided on the PFC board. If the supply frequency is 60Hz, refer to point No: 3 in the section [Basic Demonstration](#52-basic-demonstration) to change the input frequency in firmware parameters . 
 
       <p align="left">
       <img  src="images/mchv_input.png" width="600"/></p>
