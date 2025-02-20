@@ -1,0 +1,51 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.ide.project",
+   "content":{
+      "metaDataVersion":"1.3.0",
+      "name":"com.microchip.mplabx.project.mchv230vac1.5kw-33ck64mc105-pmsm-foc-atpll-pfc",
+      "version":"1.0.0",
+      "displayName":"Sensorless FOC of PMSM using ATPLL estimator integrated with Power Factor Correction: MCHV-230VAC-1.5kW and dsPIC33CK64MC105 MC DIM",
+      "projectName":"mchv230vac1.5kw-33ck64mc105-pmsm-foc-atpll-pfc",
+      "shortDescription":"Integrated Power Factor Correction and Sensorless FOC of PMSM using ATPLL estimator. Extended speed operation using voltage constraint-based field weakening algorithm.",
+      "ide":{
+         "name":"MPLABX",
+         "semverRange":">=6.20"
+      },
+      "compiler":{
+         "name":"XC-DSC",
+         "semverRange":">=3.10"
+      },
+      "dfp":{
+         "name":"dsPIC33CK-MP_DFP",
+         "semverRange":">=1.8.299"
+      },
+	  "configurator": {
+         "name": "MCC",
+         "semverRange": ">=4.0.1"
+      },
+      "device":{
+         "metaDataVersion":"1.0.0",
+         "category":"com.microchip.portal.contentRef",
+         "content":{
+            "metaDataVersion":"1.0.0",
+            "category":"com.microchip.device",
+            "name":"dsPIC33CK64MC105",
+            "versionRange":"*"
+         }
+      },
+      "keywords":[
+         "ADC",
+         "PWM",
+         "OPAMP",
+         "Motor Control",
+         "PMSM",
+         "Sensorless Control",
+         "ATPLL Estimator",
+         "FOC",
+         "PFC",
+	 "Field Weakening",
+         "dsPIC"
+      ]
+   }
+}
