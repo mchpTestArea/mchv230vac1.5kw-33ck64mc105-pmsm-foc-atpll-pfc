@@ -17,7 +17,6 @@
         <itemPath>../foc/foc_control_types.h</itemPath>
         <itemPath>../foc/foc_types.h</itemPath>
         <itemPath>../foc/general.h</itemPath>
-        <itemPath>../foc/util.h</itemPath>
         <itemPath>../foc/estim_atpll.h</itemPath>
         <itemPath>../foc/id_ref.h</itemPath>
       </logicalFolder>
